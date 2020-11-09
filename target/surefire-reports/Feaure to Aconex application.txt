@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Feaure to Aconex application
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 131.695 s - in Feaure to Aconex application
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 92.528 s - in Feaure to Aconex application
