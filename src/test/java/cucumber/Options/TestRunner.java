@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/features/aconexapplication.feature", plugin = "json:target/jsonReports/cucumber-report.json", dryRun = false, tags = {
-		"@Aconexuploaddoctest" }, glue = { "stepdefinitions" }, monochrome = true)
+		"@Aconexemailtest" }, glue = { "stepdefinitions" }, monochrome = true)
 
 //@Aconexuploaddoctest
 

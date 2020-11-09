@@ -152,10 +152,9 @@ public class Documentuploadpage_PF {
 	public void fileupload() throws IOException, InterruptedException {
 		String myprojectpath = System.getProperty("user.dir");
 
-		System.setProperty("webdriver.chrome.driver",
-				myprojectpath + "//src//test//resources//drivers//chromedriver.exe");
+		System.out.println("myprojectpath " + myprojectpath);
 
-		Runtime.getRuntime().exec(myprojectpath + "\\projectfiles\\Fileupload.exe");
+		Runtime.getRuntime().exec(myprojectpath + "//src//test//resources//projectfiles//Fileupload.exe");
 		Thread.sleep(3000);
 
 	}

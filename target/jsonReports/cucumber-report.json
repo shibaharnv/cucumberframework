@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T12:39:51.402Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.startup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate the send email functionality with valid credentials",
+        "description": "",
+        "id": "feaure-to-aconex-application;validate-the-send-email-functionality-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20297000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the aconex application",
+            "match": {
+              "location": "stepdefinitions.StepDefinition_PF.open_the_aconex_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 719000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login into the application with valid \"poleary\" username and \"ac0n3x72\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"poleary\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"ac0n3x72\"",
+                  "offset": 61
+                }
+              ],
+              "location": "stepdefinitions.StepDefinition_PF.login_into_the_application_with_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4385000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to blank mail section through page mail",
+            "match": {
+              "location": "stepdefinitions.StepDefinition_PF.navigate_to_blank_mail_section_through_page_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5274000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the required fields in mail page",
+            "match": {
+              "location": "stepdefinitions.StepDefinition_PF.enter_the_required_fields_in_mail_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Set the receipient by clicking on directory button and navigate to global tab",
+            "match": {
+              "location": "stepdefinitions.StepDefinition_PF.set_the_receipient_by_clicking_on_directory_button_and_navigate_to_global_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6373000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Search for groupname and familyname and click on the ok button",
+            "match": {
+              "location": "stepdefinitions.StepDefinition_PF.search_for_groupname_and_familyname_and_click_on_the_ok_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 673000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on send button",
+            "match": {
+              "location": "stepdefinitions.StepDefinition_PF.click_on_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4656000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify if the mail is sent as per the standard practices",
+            "match": {
+              "location": "stepdefinitions.StepDefinition_PF.verify_if_the_mail_is_sent_as_per_the_standard_practices()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Aconexemailtest"
+          }
+        ]
+      }
+    ],
+    "name": "Feaure to Aconex application",
+    "description": "",
+    "id": "feaure-to-aconex-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/aconexapplication.feature",
+    "tags": []
+  }
+]
