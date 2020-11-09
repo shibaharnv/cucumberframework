@@ -1,0 +1,8 @@
+pagefactory\Aconexhomepage_PF.class
+stepdefinitions\Hooks$1.class
+stepdefinitions\Hooks.class
+pagefactory\Documentregisterpage_PF.class
+stepdefinitions\StepDefinition_PF.class
+pagefactory\Loginpage_PF.class
+pagefactory\Mailpage_PF.class
+pagefactory\Documentuploadpage_PF.class

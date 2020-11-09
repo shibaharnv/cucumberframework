@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Feaure to document upload
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 134.797 s - in Feaure to document upload
